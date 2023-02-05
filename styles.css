@@ -76,7 +76,8 @@ body {
 .heroh1 {
   color: white;
   padding: 15px;
-  font-family: selima;
+  /* font-family: selima; not working??*/
+  font-family: selima, 'Caveat', cursive;
   font-size: 10vw;
   font-weight: 300;
   text-shadow: 1px 1px #0000004c;
@@ -93,7 +94,7 @@ body {
   /* font-family: 'Montserrat', sans-serif; */
   font-family: TTround;
   font-weight: 600;
-  /* letter-spacing: -1px */
+  letter-spacing: 2px
 }
 
 .heart {
@@ -105,6 +106,7 @@ body {
 .confidence {
   text-shadow: 0px 5px #000000;
   letter-spacing: 2px;
+  text-transform: uppercase
 }
 
 .diverse {
