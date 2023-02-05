@@ -1,0 +1,376 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: selima;
+  src: url(./Selima\ .ttf);
+}
+
+@font-face {
+  font-family: TTround;
+  src: url(./TTRoundsNeue-CondDBold.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  padding: 1.5vh 3vw;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 3vh;
+}
+
+.visit {
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+  font-size: 3vh;
+}
+
+.navlinks li {
+  display: inline;
+  padding: 0;
+  margin-right: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.navlinks li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+  /* letter-spacing: 1px; */
+}
+
+.navlinks li a:hover {
+  color: goldenrod;
+}
+
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.622),
+      rgba(0, 0, 0, 0.322)
+    ),
+    url(https://images.unsplash.com/photo-1537344545551-58cc475eec12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heroh1 {
+  color: white;
+  padding: 15px;
+  font-family: selima;
+  font-size: 10vw;
+  font-weight: 300;
+  text-shadow: 1px 1px #0000004c;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+}
+
+.heroh2 {
+  color: white;
+  padding: 15px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-shadow: 1px 1px #0000004c;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: TTround;
+  font-weight: 600;
+  /* letter-spacing: -1px */
+}
+
+.heart {
+  color: rgb(251, 19, 89);
+  text-shadow: 2px 2px #0000004c;
+  
+}
+
+.confidence {
+  text-shadow: 0px 5px #000000;
+  letter-spacing: 2px;
+}
+
+.diverse {
+  animation: diverse 2.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes diverse {
+  100%,
+  0% {
+    color: #8d5524;
+  }
+  10% {
+    color: #c68642;
+  }
+  20% {
+    color: #e0ac69;
+  }
+  30% {
+    color: #f1c27d;
+  }
+  40% {
+    color: #ffdbac;
+  }
+  50% {
+    color: #fdecd6;
+  }
+  60% {
+    color: #ffdbac;
+  }
+  70% {
+    color: #f1c27d;
+  }
+  80% {
+    color: #e0ac69;
+  }
+  90% {
+    color: #c68642;
+  }
+  100% {
+    color: #8d5524;
+  }
+}
+
+.activities {
+  display: flex;
+}
+
+.library {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.622),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./images/library.jpg);
+  width: 33vw;
+  height: 33vw;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+.library:hover {
+  background-image: url(./images/library.jpg);
+  color: #00000000;
+}
+
+.birmingham {
+  font-size: 1.5em;
+}
+
+.grandcentral {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.622),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./images/grandcentral.jpg);
+  width: 33vw;
+  height: 33vw;
+  background-size: cover;
+  font-family: "Nova Square", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3em;
+}
+
+.grandcentral:hover {
+  background-image: url(./images/grandcentral.jpg);
+  color: #00000000;
+}
+
+.canals {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.622),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./images/canals.jpg);
+  width: 33vw;
+  height: 33vw;
+  background-size: cover;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3em;
+}
+
+.canals:hover {
+  background-image: url(./images/canals.jpg);
+  color: #00000000;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+/* copied and adjusted */
+
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.background {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container {
+  flex: 0 1 80vw;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #4e4e4e;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #000000;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
