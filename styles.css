@@ -6,7 +6,7 @@ html {
 
 @font-face {
   font-family: selima;
-  src: url(./Selima\ .ttf);
+  src: url(./Selima\ .otf) format("opentype");
 }
 
 @font-face {
