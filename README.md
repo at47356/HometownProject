@@ -1,4 +1,6 @@
 # HometownProject
+Netlify Link: 
+https://hometownproject-abdullah-teladia.netlify.app/
 
 Quick start:
 
