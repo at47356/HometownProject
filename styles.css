@@ -150,6 +150,7 @@ body {
 
 .activities {
   display: flex;
+  overflow: hidden;
 }
 
 .library {
@@ -167,7 +168,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 2.5em;
+  font-size: 2.8vw;
 }
 
 .library:hover {
@@ -194,8 +195,9 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 3em;
+  font-size: 5vw;
 }
+
 
 .grandcentral:hover {
   background-image: url(./images/grandcentral.jpg);
@@ -217,7 +219,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 3em;
+  font-size: 5vw;
 }
 
 .canals:hover {
@@ -253,7 +255,7 @@ body {
 }
 
 .cardtext {
-  padding: 40px 100px;
+  padding: 40px 2vw; 
   font-family: "Roboto Slab", serif;
   font-weight: 200;
   font-size: 1.25em;
