@@ -7,7 +7,8 @@ html {
 
 @font-face {
   font-family: selima;
-  src: url(./Selima\ .otf) format("opentype");
+  /* src: url(./Selima\ .otf) format("opentype"); */
+  src: url(./Selima.ttf) ;
 }
 
 @font-face {
@@ -102,7 +103,7 @@ body {
   color: white;
   padding: 15px;
   /* font-family: selima; not working??*/
-  font-family: selima, "Caveat", cursive;
+  font-family: selima,"Caveat", cursive;
   font-size: 10vw;
   font-weight: 300;
   text-shadow: 1px 1px #0000004c;
